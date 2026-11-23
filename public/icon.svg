@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#3a1216" />
+      <stop offset="65%" stop-color="#1e0c0d" />
+      <stop offset="100%" stop-color="#120806" />
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7e199" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#9a7218" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)" />
+  <rect x="24" y="24" width="464" height="464" rx="76" fill="none" stroke="url(#gold)" stroke-width="8" stroke-opacity="0.7" />
+  <!-- Cruciform Chaupar Cross -->
+  <g fill="#7a111d" stroke="url(#gold)" stroke-width="5">
+    <rect x="208" y="84" width="96" height="344" rx="10" />
+    <rect x="84" y="208" width="344" height="96" rx="10" />
+  </g>
+  <!-- Center Meru Square -->
+  <rect x="202" y="202" width="108" height="108" rx="8" fill="#1a120b" stroke="url(#gold)" stroke-width="7" />
+  <!-- 8-Petal Golden Lotus in Center -->
+  <g transform="translate(256 256)" fill="url(#gold)">
+    <path d="M0 -36 C10 -18 10 -8 0 0 C-10 -8 -10 -18 0 -36 Z" />
+    <path d="M0 -36 C10 -18 10 -8 0 0 C-10 -8 -10 -18 0 -36 Z" transform="rotate(45)" />
+    <path d="M0 -36 C10 -18 10 -8 0 0 C-10 -8 -10 -18 0 -36 Z" transform="rotate(90)" />
+    <path d="M0 -36 C10 -18 10 -8 0 0 C-10 -8 -10 -18 0 -36 Z" transform="rotate(135)" />
+    <path d="M0 -36 C10 -18 10 -8 0 0 C-10 -8 -10 -18 0 -36 Z" transform="rotate(180)" />
+    <path d="M0 -36 C10 -18 10 -8 0 0 C-10 -8 -10 -18 0 -36 Z" transform="rotate(225)" />
+    <path d="M0 -36 C10 -18 10 -8 0 0 C-10 -8 -10 -18 0 -36 Z" transform="rotate(270)" />
+    <path d="M0 -36 C10 -18 10 -8 0 0 C-10 -8 -10 -18 0 -36 Z" transform="rotate(315)" />
+    <circle cx="0" cy="0" r="10" fill="#8b0000" stroke="#f7e199" stroke-width="3" />
+  </g>
+  <!-- Four Charkoni Safe Cross Marks -->
+  <g stroke="#f7e199" stroke-width="5" stroke-linecap="round">
+    <path d="M242 122 L270 150 M270 122 L242 150" />
+    <path d="M242 362 L270 390 M270 362 L242 390" />
+    <path d="M122 242 L150 270 M150 242 L122 270" />
+    <path d="M362 242 L390 270 M390 242 L362 270" />
+  </g>
+</svg>
