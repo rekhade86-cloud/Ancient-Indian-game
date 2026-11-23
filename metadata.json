@@ -1,0 +1,8 @@
+{
+  "name": "Dyut Krida · Royal Chaupar",
+  "description": "Authentic ancient Indian royal strategy and stick-dice board game of Hastinapur (Chaupar / Dyut Krida) featuring 3-stick Pashaka dice, Cowrie shells, Jodi pairs, Safe Charkoni squares, and the Shakuni AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
